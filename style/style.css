@@ -1,0 +1,137 @@
+html{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+div.total{
+    background-color: #1f2630;
+    width: 425px;
+    height: 425px;
+    min-width: 300px;
+    border-radius: 30px;
+   
+}
+
+div.bloco{
+    padding: 1.87em;
+}
+p{
+    font-size: 15px;
+    line-height: 1.4em;
+    font-family: Overpass;
+    color: hsl(217, 12%, 63%);
+    user-select: all;
+    pointer-events: normal;
+}
+
+h1{
+    font-family: Overpass;
+    font-weight: 700;
+    color: white;
+}
+
+span, div{
+    font-family: Overpass;
+    user-select: none;
+    
+}
+
+
+
+div.icone{
+    background-color:  #262f38;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 350%;
+}
+
+ .numero:hover{
+    background-color: #fc7613;
+    color: white;
+   
+}
+
+button.numero{
+    border: 0;
+    margin-top: 15px;
+    background-color:  #262f38;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 300%;
+    color: hsl(217, 12%, 63%);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    
+}
+
+.numero:active{
+    background-color: aliceblue;
+    color: black
+}
+
+
+
+button.submit{
+    background-color: #fc7613;
+    border-radius: 30px; 
+    height: 50px;
+    width: 100%;
+    border: 0;
+    line-height: 350%;
+    text-align: center;
+    letter-spacing: 1pt;
+    color: white;
+    transition: 0.1s;
+}
+
+.submit:active{
+    transform: translateY(5px);
+    
+}
+
+
+
+.selecionado{
+    background-color: #262f38;
+    border-radius: 15px;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto; /* Adicione esta linha */
+    
+}
+.selecionado p{
+    color: #fc7613;
+}
+
+div.telaobg{
+    background-color: #1f2630;
+    width: 425px;
+    height: 425px;
+    min-width: 300px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.bloco-obg{
+    margin: 44px;
+}
